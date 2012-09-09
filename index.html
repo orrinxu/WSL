@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Wololo's Stream List</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Dota Stream List">
+	<meta name="author" content="Wololo">
+
+	<!-- Le styles -->
+	<link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./assets/css/custom.min.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<table id="streamList" class="table tablesorter table-striped table-hover table-condensed">
+		<thead>
+			<tr>
+				<th class="icon-th-list">R</th>
+				<th>Streamer</th>
+				<th id="viewers">Viewers</th>
+			</tr>
+		</thead>
+		<tbody id="twitchAppend">
+			<tr id='progressStream'><td></td><td><div class="progress"><div class="bar" style="width: 0%;"></div></div></td><td></td></tr>
+		</tbody>
+	</table>
+    <div id="modals">
+    </div>
+	<!-- ========================= JS ==================== -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/wsl.min.js"></script>
+	<script src="./assets/js/jquery.tablesorter.min.js"></script>
+</body>
+</html>
